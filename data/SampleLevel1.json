@@ -1,18 +1,18 @@
 {
-    "id": 57436521,
-    "name": "SampleLevel1",
-    "author": "LevelUploader",
-    "creators": ["Creator1", "Creator2", "Creator3"],
-    "verifier": "Verifier",
-    "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
-    "percentToQualify": 56,
+    "id": 26681070,
+    "name": "Sonic Wave",
+    "author": "LSunix",
+    "creators": ["Cyclic"],
+    "verifier": "Shepster",
+    "verification": "https://youtu.be/Q1blnVBzsDA?si=FmOmKDnLbqa641yJ",
+    "percentToQualify": 100,
     "password": "Not Copyable",
     "records": [
         {
-            "user": "Sample_Victor_1",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "user": "Orbitra",
+            "link": "https://youtu.be/WU8z2pKfo-4?si=LkZeYHLBC1S19Mnm",
             "percent": 100,
-            "hz": 360
+            "hz": 240
         }
     ]
 }
