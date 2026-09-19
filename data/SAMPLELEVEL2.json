@@ -3,10 +3,16 @@
     "name": "Sonic Wave",
     "author": "LSunix",
     "creators": "-",
-    "verifier": "Flight",
-    "verification": "https://youtu.be/ptvOjdguaKo",
+    "verifier": "Shepster",
+    "verification": "https://youtu.be/Q1blnVBzsDA?si=CvZzZ_jlChy0Edkg",
     "percentToQualify": "100",
     "password": [],
     "records": [
+         {
+            "user": "Flightflig",
+            "link": "https://youtu.be/ptvOjdguaKo",
+            "percent": 100,
+            "hz": 480
+        }
     ]
 }
