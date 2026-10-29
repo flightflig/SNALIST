@@ -9,14 +9,14 @@
     "password": [],
     "records": [
         {
-                        "user": "Shepster",
-            "link": "https://www.youtube.com/watch?v=Irtme1lhks0",
-            "percent": 100
+        "user": "Shepster",
+        "link": "https://www.youtube.com/watch?v=Irtme1lhks0",
+        "percent": 100
         }
         {
         "user": "Flight",
-            "link": "https://www.youtube.com/watch?v=pbWqJpASyq8",
-            "percent": 100
+        "link": "https://www.youtube.com/watch?v=pbWqJpASyq8",
+        "percent": 100
         }
     ]
 }
