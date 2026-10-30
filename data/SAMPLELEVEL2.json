@@ -2,11 +2,21 @@
     "id": 26681070,
     "name": "Sonic Wave",
     "author": "lSunix",
-    "creators": "-",
-    "verifier": "Flightflig",
-    "verification": "https://youtu.be/ptvOjdguaKo",
+    "creators": ["Cyclic"],
+    "verifier": "Shepster",
+    "verification": "https://www.youtube.com/watch?v=Q1blnVBzsDA",
     "percentToQualify": "100",
     "password": [],
     "records": [
+        {
+        "user": "Orbitra",
+        "link": "https://www.youtube.com/watch?v=WU8z2pKfo-4&pp=0gcJCSsMAYcqIYzv",
+        "percent": 100
+        },
+        {
+        "user": "Flight",
+        "link": "https://www.youtube.com/watch?v=ptvOjdguaKo",
+        "percent": 100
+        }
     ]
 }
