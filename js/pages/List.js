@@ -99,7 +99,7 @@ export default {
                         </ol>
                     </template>
                     <h3>Submission Requirements</h3>
-                    <p> idfk dont cheat same rules as aredl so ye. also list placements are based on players opinions not the aredl/global demon list or smth.
+                    <p> idfk dont cheat same rules as aredl so ye. also list placements are based on players opinions not the aredl/global demon list or smth. most completions wont require videos if it is not unbelivable and is from a trusted member of the community.
                     </p>
                 </div>
             </div>
