@@ -3,11 +3,16 @@
     "name": "Falling Up",
     "author": "KrmaL",
     "creators": ["KrmaL"],
-    "verifier": "Flight",
-    "verification": "https://youtu.be/7Tfd32862Xw",
+    "verifier": "Element",
+    "verification": "https://youtu.be/EoEc7OY5OmY",
     "percentToQualify": "100",
     "password": [],
     "records": [
+          {
+            "user": "Flight",
+            "link": "https://youtu.be/7Tfd32862Xw",
+            "percent": 100
+          },
           {
             "user": "Orbitra",
             "link": "https://youtu.be/oiNPSpnzmdE",
