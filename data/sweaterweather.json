@@ -2,7 +2,7 @@
     "id": 81148582,
     "name": "Sweater Weather",
     "author": "VelYT",
-    "creators": "VelYT",
+    "creators": ["VelYT"],
     "verifier": "Silva",
     "verification": "https://youtu.be/7K3y2ennDcc",
     "percentToQualify": "100",
