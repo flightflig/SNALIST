@@ -3,8 +3,8 @@
     "name": "Crowd Control",
     "author": "Deadlox",
     "creators": ["Deadlox & More"],
-    "verifier": "MikeyGD",
-    "verification": "https://youtu.be/eieUmiVa-O4?si=P4Bb6lZRu8INVIMB",
+    "verifier": "Shepster",
+    "verification": "https://youtu.be/30KhXJI_Qqk?si=Xl9TzCz_f8l8QFFy",
     "percentToQualify": 100,
     "password": [],
     "records": [
@@ -17,6 +17,10 @@
             "user": "Flight",
             "link": "https://youtu.be/zcEzsEOIQQg?si=uXT03A9yeQn8f5Bz",
             "percent": 100
-        }
+        },
+        {
+            "user": "MikeyGD"
+            "link": "https://youtu.be/eieUmiVa-O4?si=P4Bb6lZRu8INVIMB"
+            "percent": 100
     ]
 }
