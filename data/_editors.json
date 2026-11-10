@@ -1,27 +1,27 @@
 [
     {
         "role": "owner",
-        "name": "List Owner",
+        "name": "Flight",
         "link": "https://www.youtube.com/@flightflig"
     },
     {
         "role": "admin",
-        "name": "List Admin",
+        "name": "Shepster",
         "link": "https://www.youtube.com/@ShepsterGD"
     },
     {
         "role": "admin",
-        "name": "List Admin",
+        "name": "Orbitra",
+        "link": "https://www.youtube.com/@OrbitraGD"
+    },
+    {
+        "role": "admin",
+        "name": "Element",
         "link": "https://www.youtube.com/@ElementXZPEED"
     },
     {
         "role": "admin",
-        "name": "List Admin",
+        "name": "KingYeti",
         "link": "https://www.youtube.com/@kingyeti15"
-    },
-    {
-        "role": "admin",
-        "name": "List Admin",
-        "link": "https://www.youtube.com/@BLGHA"
     }
 ]
