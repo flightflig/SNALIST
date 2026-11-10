@@ -35,7 +35,11 @@
         <script type="module" src="/js/main.js"></script>
     </head>
     <body id="app">
-        <header :class="{ dark: store.dark }">
+        <header
+    :class="{ dark: store.dark }"
+    :data-theme="store.theme"
+    :style="store.accent ? { '--custom-accent': store.accent } : {}"
+>
             <div class="logo">
                 <h2>The Hardests List</h2>
             </div>
@@ -46,15 +50,30 @@
                 
                 </router-link>
                 <div class="nav__actions">
-                    <button
-                        class="nav__icon"
-                        @click.prevent="store.toggleDark()"
-                    >
-                        <img
-                            :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
-                            alt=""
-                        />
-                    </button>
+                    <div class="theme-controls">
+    <select
+        class="theme-select"
+        :value="store.theme"
+        @change="store.setTheme($event.target.value)"
+        aria-label="Choose theme"
+    >
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+        <option value="crimson">Crimson</option>
+        <option value="purple">Purple</option>
+        <option value="ocean">Ocean</option>
+        <option value="monochrome">Monochrome</option>
+    </select>
+
+    <input
+        class="theme-color"
+        type="color"
+        :value="store.accent || '#0066ff'"
+        @input="store.setAccent($event.target.value)"
+        title="Custom accent color"
+        aria-label="Custom accent color"
+    />
+</div>
                     <!-- Replace the '#' with your discord server's invite-->
                     <a class="nav__icon" href="https://discord.gg/drtQ3vNNar">
                         <img src="/assets/discord.svg" alt="Discord Logo" />
