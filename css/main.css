@@ -242,3 +242,93 @@ header[data-theme="dark"] {
 .theme-color:hover {
     transform: scale(1.08);
 }
+
+/* ========================================
+   GLOBAL FONT
+======================================== */
+
+html,
+body,
+button,
+input,
+select,
+textarea {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* ========================================
+   SMOOTH UI TRANSITIONS
+======================================== */
+
+* {
+    transition-property:
+        color,
+        background-color,
+        border-color,
+        box-shadow;
+    transition-duration: 220ms;
+    transition-timing-function: ease;
+}
+
+/* Buttons */
+button {
+    transition:
+        transform 180ms ease,
+        background-color 220ms ease,
+        box-shadow 220ms ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+/* Navigation */
+.nav__tab,
+.nav__icon {
+    transition:
+        transform 180ms ease,
+        opacity 180ms ease,
+        background-color 220ms ease;
+}
+
+.nav__tab:hover,
+.nav__icon:hover {
+    transform: translateY(-2px);
+}
+
+/* Links */
+a {
+    transition:
+        color 180ms ease,
+        opacity 180ms ease;
+}
+
+/* Theme switching */
+header,
+main {
+    transition:
+        background-color 300ms ease,
+        color 300ms ease;
+}
+
+/* Keyboard accessibility */
+button:focus-visible,
+a:focus-visible,
+select:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 3px;
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+    }
+}
