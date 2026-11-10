@@ -171,6 +171,35 @@ header[data-theme="monochrome"] {
     --color-on-primary: #ffffff;
 }
 
+
+/* ========================================
+   THEME SYSTEM
+======================================== */
+
+/* Light theme */
+main[data-theme="light"],
+header[data-theme="light"] {
+    color-scheme: light;
+    --color-background: #f5f6fa;
+    --color-on-background: #20212a;
+    --color-background-hover: #e8eaf0;
+    --color-on-background-hover: #20212a;
+    --color-primary: var(--custom-accent, #3978ed);
+    --color-on-primary: #ffffff;
+}
+
+/* Dark theme */
+main[data-theme="dark"],
+header[data-theme="dark"] {
+    color-scheme: dark;
+    --color-background: #15161c;
+    --color-on-background: #f4f4f7;
+    --color-background-hover: #252630;
+    --color-on-background-hover: #ffffff;
+    --color-primary: var(--custom-accent, #3978ed);
+    --color-on-primary: #ffffff;
+}
+
 /* Theme selector */
 .theme-controls {
     display: flex;
@@ -180,27 +209,36 @@ header[data-theme="monochrome"] {
 }
 
 .theme-select {
-    background: rgba(0, 0, 0, 0.2);
-    color: white;
-    border: 1px solid rgba(255, 255, 255, 0.35);
-    border-radius: 0.5rem;
-    padding: 0.55rem 0.7rem;
+    background: var(--color-background);
+    color: var(--color-on-background);
+    border: 1px solid var(--color-background-hover);
+    border-radius: 0.6rem;
+    padding: 0.6rem 0.8rem;
     font: inherit;
     cursor: pointer;
-    outline: none;
+    transition: 0.2s ease;
+}
+
+.theme-select:hover {
+    border-color: var(--color-primary);
 }
 
 .theme-select option {
-    background: #222222;
-    color: white;
+    background: var(--color-background);
+    color: var(--color-on-background);
 }
 
 .theme-color {
     width: 2.2rem;
     height: 2.2rem;
     padding: 0.15rem;
-    border: 1px solid rgba(255, 255, 255, 0.35);
-    border-radius: 0.5rem;
-    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--color-background-hover);
+    border-radius: 0.6rem;
+    background: var(--color-background);
     cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.theme-color:hover {
+    transform: scale(1.08);
 }
