@@ -52,3 +52,14 @@
 .nav .nav__actions .nav__cta:hover:not(:active) {
     transform: translateY(-2px);
 }
+.nav .nav__actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    flex: 1;
+}
+
+.nav .nav__actions .theme-controls {
+    margin-left: 0;
+}
