@@ -201,12 +201,15 @@ header[data-theme="dark"] {
 }
 
 /* Theme selector */
+
 .theme-controls {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    margin-left: auto;
     padding: 0 0.5rem;
 }
+
 
 .theme-select {
     background: var(--color-background);
