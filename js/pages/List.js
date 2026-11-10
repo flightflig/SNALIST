@@ -99,21 +99,15 @@ export default {
                         </ol>
                     </template>
                     <h3>Submission Requirements</h3>
-                    <p> ### Submission Requirements
-
-**Legitimate Completions**
-- All records must be achieved legitimately. Hacking, cheating, macros, or other unauthorized methods are not allowed.
-- Records must be completed in Geometry Dash.
-
-**Proof**
-- Video proof is strongly encouraged for all submissions.
-- Submissions without video proof may still be accepted if the player is trusted and the completion can be reasonably verified.
-- Staff may request additional proof if necessary.
-
-**Placements**
-- List placements are determined by community opinions and staff discussion.
-- Placements are not automatically based on the AREDL or Global Demon List.
-- Staff have the final say on placements and record acceptance.
+                    <p>
+All records must be achieved legitimately. Hacking, cheating, macros, or other unauthorized methods are not allowed.
+Records must be completed in Geometry Dash.
+Video proof is strongly encouraged for all submissions.
+Submissions without video proof may still be accepted if the player is trusted and the completion can be reasonably verified.
+Staff may request additional proof if necessary.
+List placements are determined by community opinions and staff discussion.
+Placements are not automatically based on the AREDL or Global Demon List.
+Staff have the final say on placements and record acceptance.
 
 **General Rules**
 - Do not submit fake, misleading, or unverifiable records.
