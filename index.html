@@ -54,19 +54,33 @@
                 </router-link>
                 
                 </router-link>
-                <div class="nav__actions">
-                    <div class="theme-controls">
-<select
-    class="theme-select"
-    :value="store.theme"
-    @change="store.setTheme($event.target.value)"
-    aria-label="Choose theme"
->
-    <option value="light">☀️ Light</option>
-    <option value="dark">🌙 Dark</option>
-</select>
+<div class="nav__actions">
 
-    
+    <!-- Discord button -->
+    <a class="nav__icon" href="https://discord.gg/drtQ3vNNar">
+        <img src="/assets/discord.svg" alt="Discord Logo" />
+    </a>
+
+    <!-- Stats Viewer -->
+    <a
+        class="nav__cta type-label-lg"
+        href="https://list.snagd.workers.dev/#/leaderboard"
+        target="_blank"
+    >STATS VIEWER</a>
+
+    <!-- Theme selector -->
+    <div class="theme-controls">
+        <select
+            class="theme-select"
+            :value="store.theme"
+            @change="store.setTheme($event.target.value)"
+            aria-label="Choose theme"
+        >
+            <option value="light">☀️ Light</option>
+            <option value="dark">🌙 Dark</option>
+        </select>
+    </div>
+
 </div>
                     <!-- Replace the '#' with your discord server's invite-->
                     <a class="nav__icon" href="https://discord.gg/drtQ3vNNar">
