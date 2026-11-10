@@ -51,19 +51,15 @@
                 </router-link>
                 <div class="nav__actions">
                     <div class="theme-controls">
-    <select
-        class="theme-select"
-        :value="store.theme"
-        @change="store.setTheme($event.target.value)"
-        aria-label="Choose theme"
-    >
-        <option value="light">Light</option>
-        <option value="dark">Dark</option>
-        <option value="crimson">Crimson</option>
-        <option value="purple">Purple</option>
-        <option value="ocean">Ocean</option>
-        <option value="monochrome">Monochrome</option>
-    </select>
+<select
+    class="theme-select"
+    :value="store.theme"
+    @change="store.setTheme($event.target.value)"
+    aria-label="Choose theme"
+>
+    <option value="light">☀️ Light</option>
+    <option value="dark">🌙 Dark</option>
+</select>
 
     <input
         class="theme-color"
