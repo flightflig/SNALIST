@@ -5,13 +5,18 @@
     "creators": ["Sillow"],
     "verifier": "Flight",
     "verification": "https://youtu.be/7-TBUQYnaKU",
-    "percentToQualify": "100",
+    "percentToQualify": 100,
     "password": [],
     "records": [
-          {
+        {
             "user": "Orbitra",
             "link": "https://youtu.be/BG7uwRHSSzI",
             "percent": 100
-          }
-              ]
+        },
+        {
+            "user": "Mikey",
+            "link": "https://youtu.be/xGipHJ54SBA",
+            "percent": 100
         }
+    ]
+}
