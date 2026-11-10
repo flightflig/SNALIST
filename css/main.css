@@ -335,3 +335,25 @@ select:focus-visible {
         animation-duration: 0.01ms !important;
     }
 }
+
+/* Make navigation use the full screen width */
+header {
+    display: flex;
+    padding-inline: 1rem;
+}
+
+@media screen and (min-width: 1366px) {
+    header {
+        display: flex;
+        padding-inline: 1rem;
+    }
+}
+
+header .nav {
+    flex: 1;
+    min-width: 0;
+}
+
+header .nav .nav__actions {
+    justify-content: flex-end;
+}
