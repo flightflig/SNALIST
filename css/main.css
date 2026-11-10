@@ -94,3 +94,113 @@ input[type="checkbox"] {
     cursor: pointer;
     margin: 0;
 }
+
+/* ========================================
+   THEME SYSTEM
+======================================== */
+
+/* Light theme */
+main[data-theme="light"],
+header[data-theme="light"] {
+    color-scheme: light;
+    --color-background: #ffffff;
+    --color-on-background: #171717;
+    --color-background-hover: #eeeeee;
+    --color-on-background-hover: #171717;
+    --color-primary: var(--custom-accent, #0066ff);
+    --color-on-primary: #ffffff;
+}
+
+/* Dark theme */
+main[data-theme="dark"],
+header[data-theme="dark"] {
+    color-scheme: dark;
+    --color-background: #171717;
+    --color-on-background: #ffffff;
+    --color-background-hover: #292929;
+    --color-on-background-hover: #ffffff;
+    --color-primary: var(--custom-accent, #343434);
+    --color-on-primary: #ffffff;
+}
+
+/* Crimson theme */
+main[data-theme="crimson"],
+header[data-theme="crimson"] {
+    color-scheme: dark;
+    --color-background: #1b1014;
+    --color-on-background: #ffffff;
+    --color-background-hover: #321b23;
+    --color-on-background-hover: #ffffff;
+    --color-primary: var(--custom-accent, #c62848);
+    --color-on-primary: #ffffff;
+}
+
+/* Purple theme */
+main[data-theme="purple"],
+header[data-theme="purple"] {
+    color-scheme: dark;
+    --color-background: #171020;
+    --color-on-background: #ffffff;
+    --color-background-hover: #2a1c3d;
+    --color-on-background-hover: #ffffff;
+    --color-primary: var(--custom-accent, #8438d1);
+    --color-on-primary: #ffffff;
+}
+
+/* Ocean theme */
+main[data-theme="ocean"],
+header[data-theme="ocean"] {
+    color-scheme: dark;
+    --color-background: #0c1923;
+    --color-on-background: #ffffff;
+    --color-background-hover: #193044;
+    --color-on-background-hover: #ffffff;
+    --color-primary: var(--custom-accent, #008eaa);
+    --color-on-primary: #ffffff;
+}
+
+/* Monochrome theme */
+main[data-theme="monochrome"],
+header[data-theme="monochrome"] {
+    color-scheme: dark;
+    --color-background: #101010;
+    --color-on-background: #eeeeee;
+    --color-background-hover: #292929;
+    --color-on-background-hover: #ffffff;
+    --color-primary: var(--custom-accent, #777777);
+    --color-on-primary: #ffffff;
+}
+
+/* Theme selector */
+.theme-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0 0.5rem;
+}
+
+.theme-select {
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 0.5rem;
+    padding: 0.55rem 0.7rem;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+.theme-select option {
+    background: #222222;
+    color: white;
+}
+
+.theme-color {
+    width: 2.2rem;
+    height: 2.2rem;
+    padding: 0.15rem;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 0.5rem;
+    background: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
